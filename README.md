@@ -1,8 +1,10 @@
 ## Exploratory Data Analysis, and Experimental Machine Learning
 
 Frameworks:
-- Pandas
+
+- Requests
   - Data Extraction via API calls
+- Pandas
   - Data Cleaning and Preparations
   - Data Manipulations
 - Numpy
