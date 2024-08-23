@@ -1,1 +1,39 @@
-# Spotify_Analysis
+## Exploratory Data Analysis, and Experimental Machine Learning
+
+Frameworks:
+- Pandas
+  - Data Extraction via API calls
+  - Data Cleaning and Preparations
+  - Data Manipulations
+- Numpy
+  - Implemented best fits for ML models visualization graphs
+  - GridSearching for ML models
+- Matplotlib
+  - Implemented various plots including line graphs, bar charts, histograms, scatterplots, boxplots
+  - Illustrations of Features
+    - Changes in audio features over the years in tracks produced
+    - Correlation between individual audio features
+    - Correlation of individual audio features with resulting track popularity
+    - Trend changes from past to present music produced
+    - Production Trends and Frequencies of different months and years
+    - Visualization of ML models trained and their various accuracies when compared to real data
+  - Plot loss and history when training Neural Net Regressor Models
+- seaborn
+  - implemented pairplots to illustrate relationship between various audio features
+  - implemented heatmaps with color scale for apparent visualization of how strongly various audio features correlated each other
+- scikit learn
+  - Train Test Data splitting
+  - Utilised pre-processing library to performing scaling of data when necessary
+  - Train ML models such as
+    - Linear Regression Model, with L1 and L2 Regulations
+    - Random Forest Regressor Model
+    - Support Vector Regressor Model
+    - Decision Tree Regressor Model
+  - Implemented GridSearch for sourcing best parameter values for various models
+  - Utilised metrics library to compare deviation between of predictions and experimental data, and compare relatively performance of ML models
+    - MSE
+    - RMSE
+    - R2
+- tensorflow
+  - Neural Net Regressor Model
+  - Manual Grid Selection for optimal parameter values and optimizers
